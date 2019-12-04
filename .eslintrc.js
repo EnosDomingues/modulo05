@@ -27,6 +27,8 @@ module.exports = {
   ],
   rules: {
     'react/state-in-constructor': 'off',
+    'eslint-disable-next-line': 'off',
+    'react/static-property-placement': 'off',
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [
       'warn',
