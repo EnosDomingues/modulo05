@@ -5,8 +5,8 @@ import api from '../../services/api';
 
 export default class Repository extends Component {
   state = {
-    repository = {},
-    issues = [],
+    repository: {},
+    issues: [],
     loading: true,
   };
 
@@ -29,8 +29,7 @@ export default class Repository extends Component {
       repository: repository.data,
       issues: issues.data,
       loading: false,
-    })
-
+    });
   }
 
   render() {
